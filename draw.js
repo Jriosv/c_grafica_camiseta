@@ -195,8 +195,9 @@ function menu_principal(){
 
     Qué operación quieres realizar?
 
-    1. trasladar
-    2. escalar
+    1. Trasladar
+    2. Escalar
+    3. Rotar
     `
 
     eleccion = prompt(menu);
@@ -210,7 +211,10 @@ function menu_principal(){
         let num = prompt('Numero por el que desea escalar la camiseta');
         escalar(num)
         graficarCamiseta(n_cadera,n_ancho,n_largo,n_espalda,center_x,center_y);
+    }else if(eleccion == 3){
+        window.alert('No alcancé a implementarlo :(');
     }
+    
 
 }
 
