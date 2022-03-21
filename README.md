@@ -7,6 +7,6 @@
 * Correr el servidor en vivo
 * Abrir parcial.html en el browser
 * Elegir las operaciones desde el boton menú
-* 
+
 
 
